@@ -38,14 +38,14 @@ Saya akan menjelaskan langkah-langkah nya :<br>
 
 * Langkah pertama yaitu saya akan membuat sebuah inputan tersebut untuk menentukan angka terbesar, yaitu dengan mengetikan perintah/syntax berikut ini :<br>
 
-'''python
+``` python
 print("Masukan pilihan angka ke-1 : ")
 xangka1 = int(input())
 print("Masukan pilihan angka ke-2 : ")
 xangka2 = int(input())
 print("Masukan pilihan angka ke-3 : ")
 xangka3 = int(input())
-'''
+```
 <br>
 
 * Sesuai *flowchart* yang saya , client/user diminta untuk memasukan nilai inputan berupa angka dan akan disimpan kedalam variable xangka1,xangka2, dan xangka3. <br>
