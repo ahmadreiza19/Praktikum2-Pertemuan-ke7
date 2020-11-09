@@ -98,6 +98,7 @@ Pada syntax diatas terdapat tiga pengeckan pada semua variable, yaitu :<br>
     3. *(xangka2 == xangka3)* = Apakah angka kedua sama besar dengan angka ketiga<br>
 <br>
 Jika ternyata semua angka sama benar, maka sistem akan menampilkan ouput seperti dibawahini : <br>
+
 ```python
 print("Bilangan yang dimasukan sama besar")
 ```
