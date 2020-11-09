@@ -13,6 +13,7 @@ Pada Pertemuan ke-7 ini saya mendapat tugas membuat aplikasi yang menentukan bil
 Pada repository ini saya akan menjelaskan alur dalam *flowchart* yang telah saya buat, file *flowchart* bisa dilihat pada link berikut ini : [Praktikum2-Pertemuan-ke7](flowchart.pdf)
 <br><br>
 Berikut ini source code yang saya tulis untuk menjadikan aplikasi tersebut.
+
 ``` python
 print("Masukan pilihan angka ke-1 : ")
 xangka1 = int(input())
