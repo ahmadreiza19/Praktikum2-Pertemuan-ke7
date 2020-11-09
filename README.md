@@ -111,7 +111,7 @@ else:
 
 Berikut ini screenshot dari program yang saya buat :<br>
 1. Angka terbesar ada di inputan pertama<br>
-    ![Angka terbesar 1](pict/capture.PNG)
+    ![Angka terbesar 1](pict/Capture.PNG)
     <br>
 2. Angka terbesar ada di inputan kedua<br>
     ![Angka terbesar 2](pict/Capture2.PNG)
