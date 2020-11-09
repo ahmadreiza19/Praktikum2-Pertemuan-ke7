@@ -56,6 +56,7 @@ Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbes
 ```python 
 if (xangka1 > xangka2) and (xangka1 > xangka3):
 ```
+
 Pada syntax diatas bahwa terdapat dua pengecekan pada angka pertama, yaitu :<br>
     1.(xangka1 > xangka2)* = Apakah angka pertama lebih besar dari angka kedua <br>
     2.(xangka1 > xangka3)* = Apakah angka pertama lebih besar dari angka ketiga <br>
