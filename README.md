@@ -61,6 +61,7 @@ Pada syntax diatas bahwa terdapat dua pengecekan pada angka pertama, yaitu :<br>
     1.(xangka1 > xangka2)* = Apakah angka pertama lebih besar dari angka kedua <br>
     2.(xangka1 > xangka3)* = Apakah angka pertama lebih besar dari angka ketiga <br>
 <br>
+
  Jika pengecekan bersifat benar "angka pertama lebih besar dari angka kedua dan ketiga", maka system akan menampilkan output seperti dibawah ini :<br>
  
  ```python
