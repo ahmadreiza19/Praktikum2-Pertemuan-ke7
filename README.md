@@ -13,7 +13,6 @@ Pada Pertemuan ke-7 ini saya mendapat tugas membuat aplikasi yang menentukan bil
 Pada repository ini saya akan menjelaskan alur dalam *flowchart* yang telah saya buat, file *flowchart* bisa dilihat pada link berikut ini : [Praktikum2-Pertemuan-ke7](flowchart.pdf)
 <br><br>
 Berikut ini source code yang saya tulis untuk menjadikan aplikasi tersebut.
-
 ``` python
 print("Masukan pilihan angka ke-1 : ")
 xangka1 = int(input())
@@ -99,6 +98,7 @@ print("Bilangan yang dimasukan sama besar")
 
 * Untuk selanjut sistem suadah memproses untuk melakukan pengecekan pada if. Elif maka sistem harus menentukan pilihan munggunakan fungsi *else*. <br>
 Fungsi else sendiri adalah dimana sistem yang telah melakukan pengecekan pada if dan elif tetapi tidak ada hasil yang di inginkan, maka menentukan pilihan akhir, yaitu dengan hanya menampilkan output yang di inginkan . <br>
+
 > Pengecekan pertama pada *xangka1* apakah lebih besar, jika tidak maka melakukan pada *xangka2* apakah lebih besar, jika masih belum menemukan hasil atau tidak lebih besar, dilakukan pengecekan berupa semua bilangan sama besar. Untuk langkah terakhir maka menampilkan hasil bahwa bilangan ketiga pasti bilangan terakhir.
 <br>
 
@@ -124,4 +124,3 @@ Berikut ini screenshot dari program yang saya buat :<br>
     <br> 
 <br>
 Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan Bahasa Pemrograman.Terima kasih. <br>
-
