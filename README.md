@@ -91,6 +91,7 @@ Untuk pengecekan berikutnya saya akan melakukan pengecekan sperti *Apakah nilai 
 ```python
 elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
 ```
+
 Pada syntax diatas terdapat tiga pengeckan pada semua variable, yaitu :<br>
     1. *(xangka1 == xangka2)* = Apakah angka pertama sama besar dengan angka kedua<br>
     2. *(xangka1 == xangka3)* = Apakah angka pertama sama besar dengan angka ketiiga<br>
