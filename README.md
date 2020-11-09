@@ -51,4 +51,65 @@ xangka3 = int(input())
 * Sesuai *flowchart* yang saya , client/user diminta untuk memasukan nilai inputan berupa angka dan akan disimpan kedalam variable xangka1,xangka2, dan xangka3. <br>
 Setalah proses input nilai selesai buat, client/user diminta untuk memasukan nilai inputan berupa angka dan akan disimpan kedalam variable xangka1,xangka2, dan xangka3. <br>
 Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbesar berdasarkan kondisi. <br>
-<br> Paa 
+<br> Pada kondisi pertama saya akan melakukan pengecekan terhadap angka petama (xangka) terlebih dahulu, yaitu dengan syntax/source code seperti dibawah ini :<br>
+```python 
+if (xangka1 > xangka2) and (xangka1 > xangka3):
+```
+Pada syntax diatas bahwa terdapat dua pengecekan pada angka pertama, yaitu :<br>
+    - *(xangka1 > xangka2)* = Apakah angka pertama lebih besar dari angka kedua 
+    - *(xangka1 > xangka3)* = Apakah angka pertama lebih besar dari angka ketiga
+<br>
+ Jika pengecekan bersifat benar "angka pertama lebih besar dari angka kedua dan ketiga", maka system akan menampilkan output seperti dibawah ini :<br>
+ 
+ ```python
+print(f"Bilangan pertama ({xangka1}) lebih bsar dari bilanga kedua dan ketiga")
+```
+
+* Jika dalam pengecekan ada yang salah, maka sistem melakukan pengecekan lanjutan ke fungsi *elif....* yaitu dengan syntax atau source code berikut : <br>
+
+```python
+elif (xangka2 > xangka1) and (xangka2 > xangka3)
+```
+Pada syntax diatas bahwa terdapat dua pengecekan pada angka kedua, yaitu :<br>
+    - *(xangka2 > xangka1)* = Apakah angka kedua lebih besar dari angka pertama 
+    - *(xangka2 > xangka3)* = Apakah angka kedua lebih besar dari angka ketiga
+    
+Jika pengecekan bersifat benar "angka kedua lebih besar dari angka pertama dan angka ketiga", maka hasil ouputnya seperti dibawah ini :<br>
+
+```python
+print(f"Bilangan kedua ({xangka2}) lebiih besar dari Bilangan pertama dan ketiga")
+```
+
+* Jika dalam pengecekan ada yang salah atau lebih kecil dari angka pertama dan ketiga, maka sistem akan melanjutkan ke pengecekan selanjutnya. <br>
+
+Untuk pengecekan berikutnya saya akan melakukan pengecekan sperti *Apakah nilai yang inputnya nilainya sama besar?*. <br>
+
+```python
+elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
+```
+Pada syntax diatas terdapat tiga pengeckan pada semua variable, yaitu :<br>
+    - *(xangka1 == xangka2)* = Apakah angka pertama sama besar dengan angka kedua
+    - *(xangka1 == xangka3)* = Apakah angka pertama sama besar dengan angka ketiiga
+    - *(xangka2 == xangka3)* = Apakah angka kedua sama besar dengan angka ketiga
+<br>
+Jika ternyata semua angka sama benar, maka sistem akan menampilkan ouput seperti dibawahini : <br>
+```python
+print("Bilangan yang dimasukan sama besar")
+```
+
+* Untuk selanjut sistem suadah memproses untuk melakukan pengecekan pada if. Elif maka sistem harus menentukan pilihan munggunakan fungsi *else*. <br>
+Fungsi else sendiri adalah dimana sistem yang telah melakukan pengecekan pada if dan elif tetapi tidak ada hasil yang di inginkan, maka menentukan pilihan akhir, yaitu dengan hanya menampilkan output yang di inginkan . <br>
+> Pengecekan pertama pada *xangka1* apakah lebih besar, jika tidak maka melakukan pada *xangka2* apakah lebih besar, jika masih belum menemukan hasil atau tidak lebih besar, dilakukan pengecekan berupa semua bilangan sama besar. Untuk langkah terakhir maka menampilkan hasil bahwa bilangan ketiga pasti bilangan terakhir.
+<br>
+
+Untuk menampilkan hasil akhir, maka hanya dengan mengetikkan syntax seperti dibawah ini :<br>
+```python
+else:
+    print(f"Bilangan ketiga ({xangka3}) lebih besar Bilangan pertama dan kedua")
+```
+<br>
+Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan Bahasa Pemrograman.Terima kasih. <br>
+
+NAMA    : AHMAD REIZA<br>
+NIM     : 312010037<br>
+KELAS   : T1.20.B.1
