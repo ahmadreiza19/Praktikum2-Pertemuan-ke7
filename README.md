@@ -34,7 +34,7 @@ else:
     print(f"Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua")
 ```
 
-Saya akan menjelaskan langkah-langkah nya :<br>
+Saya akan menjelaskan langkah-langkah nya:<br>
 
 * Langkah pertama yaitu saya akan membuat sebuah inputan tersebut untuk menentukan angka terbesar, yaitu dengan mengetikan perintah/syntax berikut ini :<br>
 
