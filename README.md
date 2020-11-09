@@ -73,6 +73,7 @@ print(f"Bilangan pertama ({xangka1}) lebih bsar dari bilanga kedua dan ketiga")
 ```python
 elif (xangka2 > xangka1) and (xangka2 > xangka3)
 ```
+
 Pada syntax diatas bahwa terdapat dua pengecekan pada angka kedua, yaitu :<br>
     1. *(xangka2 > xangka1)* = Apakah angka kedua lebih besar dari angka pertama <br>
     2. *(xangka2 > xangka3)* = Apakah angka kedua lebih besar dari angka ketiga <br>
