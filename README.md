@@ -52,6 +52,7 @@ xangka3 = int(input())
 Setalah proses input nilai selesai buat, client/user diminta untuk memasukan nilai inputan berupa angka dan akan disimpan kedalam variable xangka1,xangka2, dan xangka3. <br>
 Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbesar berdasarkan kondisi. <br>
 <br> Pada kondisi pertama saya akan melakukan pengecekan terhadap angka petama (xangka) terlebih dahulu, yaitu dengan syntax/source code seperti dibawah ini :<br>
+
 ```python 
 if (xangka1 > xangka2) and (xangka1 > xangka3):
 ```
