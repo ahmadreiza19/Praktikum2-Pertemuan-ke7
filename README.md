@@ -108,6 +108,16 @@ else:
     print(f"Bilangan ketiga ({xangka3}) lebih besar Bilangan pertama dan kedua")
 ```
 <br>
+Berikut ini screenshot dari program yang saya buat :<br>
+1. Angka terbesar ada di inputan pertama<br>
+    ![Praktikum2-Pertemuan-ke7](gambar/Capture.PNG)
+2. Angka terbesar ada di inputan kedua<br>
+    ![Praktikum2-Pertemuan-ke7](gambar/Capture2.PNG)
+3. Angka terbesar ada di inputan ketiga<br>
+    ![Praktikum2-Pertemuan-ke7](gambar/Capture3.PNG)
+4. Angka yang sama besarnya<br>
+    ![Praktikum2-Pertemuan-ke7](gambar/Capture4.PNG) <br>
+<br>
 Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan Bahasa Pemrograman.Terima kasih. <br>
 
 NAMA    : AHMAD REIZA<br>
