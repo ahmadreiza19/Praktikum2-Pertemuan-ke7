@@ -56,8 +56,8 @@ Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbes
 if (xangka1 > xangka2) and (xangka1 > xangka3):
 ```
 Pada syntax diatas bahwa terdapat dua pengecekan pada angka pertama, yaitu :<br>
-    - *(xangka1 > xangka2)* = Apakah angka pertama lebih besar dari angka kedua 
-    - *(xangka1 > xangka3)* = Apakah angka pertama lebih besar dari angka ketiga
+    1.(xangka1 > xangka2)* = Apakah angka pertama lebih besar dari angka kedua 
+    2.(xangka1 > xangka3)* = Apakah angka pertama lebih besar dari angka ketiga
 <br>
  Jika pengecekan bersifat benar "angka pertama lebih besar dari angka kedua dan ketiga", maka system akan menampilkan output seperti dibawah ini :<br>
  
@@ -71,8 +71,8 @@ print(f"Bilangan pertama ({xangka1}) lebih bsar dari bilanga kedua dan ketiga")
 elif (xangka2 > xangka1) and (xangka2 > xangka3)
 ```
 Pada syntax diatas bahwa terdapat dua pengecekan pada angka kedua, yaitu :<br>
-    - *(xangka2 > xangka1)* = Apakah angka kedua lebih besar dari angka pertama 
-    - *(xangka2 > xangka3)* = Apakah angka kedua lebih besar dari angka ketiga
+    1. *(xangka2 > xangka1)* = Apakah angka kedua lebih besar dari angka pertama 
+    2. *(xangka2 > xangka3)* = Apakah angka kedua lebih besar dari angka ketiga
     
 Jika pengecekan bersifat benar "angka kedua lebih besar dari angka pertama dan angka ketiga", maka hasil ouputnya seperti dibawah ini :<br>
 
@@ -88,9 +88,9 @@ Untuk pengecekan berikutnya saya akan melakukan pengecekan sperti *Apakah nilai 
 elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
 ```
 Pada syntax diatas terdapat tiga pengeckan pada semua variable, yaitu :<br>
-    - *(xangka1 == xangka2)* = Apakah angka pertama sama besar dengan angka kedua
-    - *(xangka1 == xangka3)* = Apakah angka pertama sama besar dengan angka ketiiga
-    - *(xangka2 == xangka3)* = Apakah angka kedua sama besar dengan angka ketiga
+    1. *(xangka1 == xangka2)* = Apakah angka pertama sama besar dengan angka kedua
+    2. *(xangka1 == xangka3)* = Apakah angka pertama sama besar dengan angka ketiiga
+    3. *(xangka2 == xangka3)* = Apakah angka kedua sama besar dengan angka ketiga
 <br>
 Jika ternyata semua angka sama benar, maka sistem akan menampilkan ouput seperti dibawahini : <br>
 ```python
